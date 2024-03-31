@@ -1,0 +1,790 @@
+body{
+    position: relative;
+    background-image:url(../images/background.gif);
+    background-repeat:repeat; 
+    font-family: ibm-plex-mono,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100hv;
+    overflow: hidden;
+    }
+a{      
+    font-family: rigid-square,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+.signIn{  
+    text-decoration: none;  
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -121px;
+    left: 50%;
+    border-radius: 15px;
+    display: block;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: rgb(233, 222, 233);
+    font-size: 30px;
+    border-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-width:10px;
+    border-radius: 15px;
+    top:50px;
+    
+}
+
+
+.signInmovedown{
+    animation: moveButtondown 1s ease-in 1s;  
+}
+
+@keyframes moveButtondown {
+    0% {
+      color: #00A4BD;
+    }
+    100% {
+        top:130px;
+    }
+  }
+
+.signIn:hover{
+    color: rgb(238, 238, 238);
+    background-color: rgb(177, 177, 177);
+}
+.openingPage{
+   
+    width: 1400px;
+    margin-top: 250px;
+    margin-left: 300px;
+}
+.pageTitle{
+    font-family: input-sans,sans-serif;
+font-weight: 400;
+font-style: normal;
+    margin-left: -80px;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+}
+.pagePic{
+    transform:rotate(360deg);
+  
+   width: 612px;
+   height: 612px;
+   animation: turningAllAround 3s infinite 2s;
+
+}
+@keyframes turningAllAround  {
+
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+
+}
+
+.signInSec{
+    top: 50%;
+    display: none;
+
+}
+
+.insetText{
+    width: 150px;
+    height: 30px;
+}
+.LogIn{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -100px;
+    left: 50%;
+    border-radius: 15px;
+    display: block;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    border-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-width:10px;
+    border-radius: 15px;
+}
+.LogIn:hover{
+    color: rgb(238, 238, 238);
+    background-color: rgb(177, 177, 177);
+}
+.logInSec{
+    left: 50%;
+    margin-left: -185px;
+    margin-top: 325px;
+    top:50%;
+    position: absolute;
+    display: none;
+}
+.topMess{
+    color: white;
+    margin-left: 500px;
+}
+.reminderMess{
+    top:50%;
+    left:50%;
+    margin-left:-440px;
+    margin-top:109px ;
+    position: absolute;
+    display: none;
+    width: 850px;
+    height: 397px;
+    background-color: rgb(153, 10, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: rgb(233, 222, 233);
+    border-radius: 25px;
+}
+.remindTitle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left:-230px;
+    margin-top:-169px; 
+    font-size: 40px;
+    text-align: center;
+    font-family: rigid-square,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+.heading{
+    font-family: rigid-square,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+.remindPara{
+    line-height: 50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 824px;
+    margin-left:-400px;
+    margin-top:-108px ;
+    font-size: 20px;
+    text-align: center;
+}
+.okayButton{
+    position: absolute;
+    right: 0;
+    bottom:80px;
+    width: 35px;
+    height: 35px;
+    background-color:  rgb(255, 255, 255);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 15px;
+    top:50%;
+    left:50%;
+    margin-left:366px;
+    margin-top:-187px ;
+    color: black;
+    border-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-width:10px;
+    border-radius: 15px;
+    
+}
+
+.okayButton:hover{
+    background-color:  rgb(117, 117, 117);
+}
+.agentOnewindow{
+    top: 10px;
+    position: absolute;
+    width: 1000px;
+    height: 100vh;
+    display: none;
+}
+.agentTwowindow{
+    top: 10px;
+    position: absolute;
+    width: 1000px;
+    height: 100vh;
+    display: none;
+}
+.agentThreewindow{
+    top: 10px;
+    position: absolute;
+    width: 1000px;
+    height: 100vh;
+    display: none;
+}
+.windowOne{
+    background-color: black;
+    position: absolute;
+    height: 675px;
+    width: 950px;
+     top: 50%;
+     left: 50%;
+     margin-left:-266px;
+     margin-top: -312px;
+}
+.hidingbox{
+    position: absolute;
+    background-color: black;
+    width: 860px;
+    height: 670px;
+    top: 50%;
+    left: 50%;
+    margin-left:-266px;
+    margin-top: -231px;
+}
+.showboxth{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 232px;
+    height: 5px;
+    top: 50%;
+    left: 50%;
+    margin-left:342px;
+    margin-top: -240px; 
+}
+.showboxO{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 232px;
+    height: 5px;
+    top: 50%;
+    left: 50%;
+    margin-left:-243px;
+    margin-top: -240px; 
+}
+.showboxt{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 232px;
+    height: 5px;
+    top: 50%;
+    left: 50%;
+    margin-left:57px;
+    margin-top: -240px; 
+}
+.windowTwo{
+    background-color: black;
+    position: absolute;
+    height: 675px;
+    width: 950px;
+     top: 50%;
+     left: 50%;
+     margin-left:-266px;
+     margin-top: -320px;
+}
+.windowThree{
+    background-color: black;
+    position: absolute;
+    height: 675px;
+    width: 950px;
+     top: 50%;
+     left: 50%;
+     margin-left:-266px;
+     margin-top: -320px;
+}
+.tabOne{
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    height: 45px;
+    width: 258px;
+    top: 50%;
+    left: 50%;
+    margin-left:-257px;
+    margin-top: -316px;   
+    border-style: ridge;
+    border-width:10px;
+    border-radius: 15px;
+    border-left: rgb(255, 255, 255);
+    border-right: rgb(255, 255, 255);
+     /* background-image: url(../images/agentoneTab.png); */
+}
+.tabOne:hover{
+    background-color: white;
+    color: black;
+}
+.tabTwo:hover{
+    background-color: white;
+    color: black;
+}
+.tabThree:hover{
+
+    background-color: white;
+    color: black;
+    background-color: white;
+    color: black;
+}
+
+.Info{
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+    position: absolute;
+    height: 300px;
+    width: 575px;
+    top: 50%;
+    left: 50%;
+     margin-left:-245px;
+     margin-top: -167px;
+
+     opacity: 50%;
+     text-align: left;
+
+}
+.tabTwo{
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    height: 45px;
+    width: 258px;
+    top: 50%;
+    left: 50%;
+    margin-left:42px;
+    margin-top: -316px;   
+    border-style: ridge;
+    border-width:10px;
+    border-radius: 15px;
+    border-left: rgb(255, 255, 255);
+    border-right: rgb(255, 255, 255);
+     /* background-image: url(../images/agentTwoTab.png); */
+}
+.tabThree{
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    height: 45px;
+    width: 258px;
+    top: 50%;
+    left: 50%;
+    margin-left:329px;
+    margin-top: -316px;   
+    border-style: ridge;
+    border-width:10px;
+    border-radius: 15px;
+    border-left: rgb(255, 255, 255);
+    border-right: rgb(255, 255, 255);
+     /* background-image: url(../images/agentTabThree.png); */
+}
+.Safe{
+    color: greenyellow;
+    position: absolute;
+    right: -57px;
+    bottom:400px;
+    width: 140px;
+    height: 50px;
+    border-style: ridge;
+    border-width:10px;
+    border-radius: 15px;
+    border-color: greenyellow;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.Safe:hover{
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+}
+.Compromised:hover{
+    color: rgb(0, 0, 0);
+    background-color:red;
+}
+.Compromised{
+    color: red;
+    border-style: ridge;
+    border-width:10px;
+    border-radius: 15px;
+    right: -57px;
+    bottom:315px;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    border-color: red;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.ComStatusChangeanimation{
+    animation: CStatusChangeanimation 3s forwards 1;
+}
+@keyframes CStatusChangeanimation {
+	0% {
+        color: red;
+	}
+
+    100% {
+        color: black;
+        background-color: red;
+	
+	}
+}
+.SafeStatusChangeanimation{
+    animation: SStatusChangeanimation 3s forwards 1;
+}
+@keyframes SStatusChangeanimation {
+	0% {
+        color: greenyellow;
+	}
+
+    100% {
+        color: black;
+        background-color: greenyellow;
+	
+	}
+}
+.agentOnememoryButton{
+    position: absolute;
+    margin-left:371px;
+    margin-top: 59px;
+    height: 45px;
+    top:50%;
+    left:50%;
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    line-height: 20px;
+    text-align: center;
+    font-family: ibm-plex-mono,sans-serif;
+    line-height: 30px;
+    border-style: ridge;
+    border-width:5px;
+    border-radius: 15px;
+    border-color: rgb(3, 80, 153);
+    background-color: rgb(3, 80, 153);
+    
+}
+.agentOnememoryButton:hover{
+    background-color: rgb(2, 28, 53);
+}
+.agentTwomemoryButton:hover{
+    background-color: rgb(2, 28, 53);
+}
+.agentThreememoryButton:hover{
+    background-color: rgb(2, 28, 53);
+}
+.agentTwomemoryButton{
+    position: absolute;
+    margin-left:371px;
+    margin-top: 59px;
+    height: 45px;
+    top:50%;
+    left:50%;
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    line-height: 20px;
+    text-align: center;
+    font-family: ibm-plex-mono,sans-serif;
+    border-style: ridge;
+    border-width:5px;
+    border-radius: 15px;
+    border-color: rgb(3, 80, 153);
+    background-color: rgb(3, 80, 153);
+    line-height: 30px;
+}
+
+.agentThreememoryButton{
+    position: absolute;
+    margin-left:371px;
+    margin-top: 59px;
+    height: 45px;
+    top:50%;
+    left:50%;
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    line-height: 20px;
+    text-align: center;
+    font-family: ibm-plex-mono,sans-serif;
+    border-style: ridge;
+    border-width:5px;
+    border-radius: 15px;
+    border-color: rgb(3, 80, 153);
+    background-color: rgb(3, 80, 153);
+    line-height: 30px;
+ 
+}
+
+.memorymovedown{
+    animation: movememorybuttonDOwn 2s forwards 1s;
+}
+
+@keyframes movememorybuttonDOwn {
+	from{
+        margin-top: -122px;
+	}
+
+   to {
+        margin-top: 59px;
+	
+	}
+}
+
+
+.agentOnememoryButton{
+    border-color: rgb(87, 168, 245);
+    background-color: rgb(87, 168, 245);
+}
+.agentTwomemoryButton{
+    border-color: rgb(87, 168, 245);
+    background-color: rgb(87, 168, 245);
+}
+.agentThreememoryButton{
+    border-color: rgb(87, 168, 245);
+    background-color: rgb(87, 168, 245);
+}
+.agentOnememoryGall{
+    position: absolute;
+    margin-left: 169px;
+    margin-top: -6px;
+    width: 1054px;
+    height:98vh;
+    display: none;
+    background-color: black;
+}
+.agentTwomemoryGall{
+    position: absolute;
+    margin-left: 169px;
+    margin-top: -6px;
+    width: 1054px;
+    height:98vh;
+    display: none;
+    background-color: black;
+}
+.agentThreememoryGall{
+    position: absolute;
+    margin-left: 169px;
+    margin-top: -6px;
+    width: 1054px;
+    height:98vh;
+    display: none;
+    background-color: black;
+}
+
+.TopLeft{
+
+    position:absolute;
+    top: 155px;
+    left: 208px;
+    width: 50%;
+    height: 50%;
+
+}
+
+
+.TopRight{
+ 
+    position:absolute;
+    top: 155px;
+    right: 9px;
+    width: 50%;
+    height: 50%;
+    
+}
+
+
+.BotLeft{
+
+    position:absolute;
+    bottom: -5px;
+    left: 0px;
+    width: 50%;
+    height: 50%;
+
+}
+
+
+.BotRight{
+
+    position:absolute;
+    bottom: -10px;
+    right: 4px;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.agentThreeBack{
+    position: absolute;
+    display: block;
+    left: 50%;
+    top:50%;
+    margin-top: -309px;
+    margin-left:-658px;
+    line-height: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    border-right: white;
+    border-left: white;
+    border-width: 10px;
+}
+.agentTwoBack{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-top: -309px;
+    margin-left:-658px;
+    display: block;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    border-color: white;
+    border-right: white;
+    border-left: white;
+    border-width: 10px;
+}
+.agentOneBack{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-top: -309px;
+    margin-left:-658px;
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    line-height: 30px;
+    text-align: center;
+    border-color: white;
+    border-right: white;
+    border-left: white;
+    border-width: 10px;
+}
+.memgallHead{
+    font-size: 30px;
+    left: 50%;
+    margin-top: 38px;
+    margin-left: 295px;
+    color: rgb(255, 255, 255);
+    width: 450px;
+    height: 200px;
+
+}
+
+
+.reminderAlert{
+    border-radius: 15pt;
+    display: none;
+    position:absolute;
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: 106px;
+    margin-left: -260px; 
+
+}
+.AlertokayButton{
+    display: none;
+position: absolute;
+right: 0;
+bottom:80px;
+width: 140px;
+height: 35px;
+background-color:  rgb(255, 255, 255);
+text-align: center;
+line-height: 30px;
+border-radius: 15px;
+top:50%;
+left:50%;
+margin-left:-70px;
+margin-top:80px ;
+color: black;
+border-color: rgb(255, 255, 255);
+border-style: ridge;
+border-width:10px;
+border-radius: 15px;
+}
+.remindALerth{
+    margin-top: 50px;
+    display:none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+#videoPlayer{
+    width: 300px;
+    align-items: center;
+    
+}
+.picOne{
+    margin-left: 286px;
+    display: none;
+    height: 600px;
+    width: 800px;
+    background-image: url(../images/Agentreport1.jpg);
+}
+.picTwo{
+    margin-left: 286px;
+    display: none;
+    height: 600px;
+    width: 800px;
+    background-image: url(../images/Agentstatus2.jpg);
+}
+.picThree{
+    margin-left: 286px;
+    display: none;
+    height: 600px;
+    width: 800px;
+    background-image: url(../images/Agentreport3.jpg);
+}
+.picFour{
+    margin-left: 286px;
+    display: none;
+    height: 600px;
+    width: 800px;
+    background-image: url(../images/agentstatusreport5.jpg);
+}
+.picFive{
+    margin-left: 286px;
+    display: none;
+    height: 600px;
+    width: 800px;
+    background-image: url(../images/agentstutreport.jpg);
+}
+.picSix{
+    margin-left: 286px;
+    display: none;
+    height: 600px;
+    width: 800px;
+    background-image: url(../images/agentstsuts5.jpg);
+}
+.Lastthing{
+    position: absolute;
+    display: none;
+    font-size: 40px;
+    color: white;
+    margin-top: 450px;
+
+}
+video{
+    width: 300px;
+}
